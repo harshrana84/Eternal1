@@ -7,8 +7,8 @@
   },
   "scripts": {
     "dev": "next",
-    "build": "next build",
-    "start": "next start"
+    "build": "NODE_OPTIONS=--openssl-legacy-provider next build",
+    "start": "NODE_OPTIONS=--openssl-legacy-provider next start"
   },
   "dependencies": {
     "google-spreadsheet": "^3.0.13",
@@ -24,6 +24,7 @@
     "react-dom": "16.13.1",
     "react-multi-carousel": "^2.5.5",
     "react-number-format": "^4.4.1",
+    "react-scripts": "^5.0.1",
     "react-scroll": "^1.8.1",
     "react-spring": "^8.0.27",
     "react-stickynode": "^3.0.3",
